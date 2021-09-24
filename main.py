@@ -123,7 +123,7 @@ def add_playlist():
     scandirectory(playlist)
 
 #Scan a directory
-path = 'D:/python projects/MusicPlayer/audio/'
+path = 'D:/python projects/MusicPlayer/audio/' #Change this path to where you usually keep your music files
 def scandirectory(path) :
     global songlist
     for root, directories , file in os.walk(path) :
